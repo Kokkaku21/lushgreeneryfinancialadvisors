@@ -19,7 +19,7 @@ function VisitorItems() {
             <Button.Group>
                 <Button color="green" onClick={handleShow}>Resolved</Button>
                 <Button.Or />
-                <Button color="red" onClick={() => setButtonChange(false)} >Decline</Button>
+                <Button color="red" onClick={() => setButtonChange(false)} >Not Resolved</Button>
             </Button.Group>
 
         </div>
